@@ -25,3 +25,35 @@ body {
   width: 100%;
   padding: 8px 16px;
 }
+.main-nav__item {
+  display: inline-block;
+}
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  width: calc(100% - 56px);
+}
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* .main-header__link {
+ 
+} */
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  margin: 0 16px;
+}
