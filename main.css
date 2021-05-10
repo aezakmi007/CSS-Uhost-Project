@@ -121,6 +121,18 @@ p ::first-letter {
   margin: 0;
   padding: 0;
 }
+.plan__title {
+  color: #0e4f1f;
+}
+.plan--highlighted .plan__title {
+  color: white;
+}
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+.plan__price {
+  color: #858585;
+}
 .plan__feature {
   margin: 8px 0;
 }
