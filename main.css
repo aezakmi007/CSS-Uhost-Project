@@ -136,3 +136,36 @@ p ::first-letter {
 .plan__feature {
   margin: 8px 0;
 }
+.button {
+  background-color: #0e4f1f;
+  color: white;
+  font: inherit;
+  border: 1.5px soloid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background-color: white;
+  color: #0e4f1f;
+}
+.button:focus {
+  outline: none;
+}
+/* 
+.core-features-heading {
+  color: #2ddf5c;
+  text-align: center;
+} */
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
