@@ -28,6 +28,12 @@ body {
   display: flex;
   flex-direction: row;
 } */
+.plans__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .plan {
   background-color: #d5ffdc;
   text-align: center;
