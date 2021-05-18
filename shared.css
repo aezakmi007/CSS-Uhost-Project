@@ -36,6 +36,7 @@ body {
   width: 100%;
   padding: 8px 16px;
   position: fixed;
+  z-index: 1;
 }
 .main-nav__item {
   display: inline-block;
